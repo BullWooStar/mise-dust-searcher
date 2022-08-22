@@ -18,6 +18,10 @@ function App() {
       `https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty?sidoName=${location}&pageNo=1&numOfRows=100&returnType=json&serviceKey=vJ%2FeRqmOG0A9W9bzmEZF%2BCm%2FppcEZruvENMoz%2FMrI5IbXSi1FW6%2B%2F1iKlFM0P9oTOL22z3Ygm%2B4EzwuM24BZ6Q%3D%3D&ver=1.0`
     );
 
+    if (!response.ok) {
+      throw new Error("Request failed!");
+    }
+
     const resItems = response.data.response.body.items;
     const dustData = resItems.map((element) => {
       return {

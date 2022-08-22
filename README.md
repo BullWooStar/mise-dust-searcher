@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# 미세먼지 검색기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 배포 사이트 https://merry-licorice-41aa37.netlify.app/
 
-## Available Scripts
+css 마무리를 하지는 못하였지만 요구한 기능은 모두 구현하였습니다.
 
-In the project directory, you can run:
+- 사용자가 설정한 기본 지역의 미세먼지 정보만 표시하는 기능 (초기값은 원하시는 지역으로 설정해도 괜찮습니다. 그런데 만약 사용자가 내 지역보기에서 직접 지역을 설정했다면, 페이지를 아무리 전환해도 설정한대로 남아있어야 합니다.)
+- 사용자가 설정한 기본 지역의 미세먼지 정보만 표시하는 기능 (초기값은 원하시는 지역으로 설정해도 괜찮습니다. 그런데 만약 사용자가 내 지역보기에서 직접 지역을 설정했다면, 페이지를 아무리 전환해도 설정한대로 남아있어야 합니다.)
+- 특정 시/도의 미세먼지 정보를 모두 리스팅하는 기능
+- 특정 지역을 즐겨찾기에 등록/해제하는 기능
+- 즐겨찾기 해놓은 지역들의 미세먼지 정보만 모아보는 기능
+- 하단 탭을 통해 기본 지역만 보기, 전체 보기, 즐겨찾기한 지역만 보기를 전환하는 기능
+- 특정 지역의 미세먼지 수치에 따라 해당 지역을 표시하는 색/아이콘 등이 달라지는 기능
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+redux thunk 기능을 사용하여 구현하고싶었지만 그 부분은 실패하였습니다. 그래도 지금까지 배운 react, react-router, redux의 기능들을 다시 복습해가며 프로젝트를 하였기에 많은 공부가 되었습니다.

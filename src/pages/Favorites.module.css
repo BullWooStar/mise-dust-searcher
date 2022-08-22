@@ -1,0 +1,13 @@
+.mainPage {
+  padding-bottom: 7rem;
+}
+
+.list {
+  list-style: none;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
